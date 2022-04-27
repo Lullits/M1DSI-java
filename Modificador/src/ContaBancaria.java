@@ -1,7 +1,7 @@
 
 public class ContaBancaria {
 
-	private int numCnt;
+//	private int numCnt;
 	private boolean ativo;
 	private double saldo;
 	
@@ -29,8 +29,34 @@ public class ContaBancaria {
 	}
 	
 	
+//	Lampada lig = new Lampada(true);		
+//	Lampada.lampLig = true;
+//	System.out.println("Luz ligada");				
+//	
+//Lampada desl = new Lampada(false);
+//	Lampada.lampDesl = false;
+//System.out.println("Luz desligada");
+//
+
 	
-	
-	
+
+//	boolean ligada;
+//	boolean desligada;
+//	
+//	public Lampada(boolean b) {
+//		this.lampLig = true;
+//		
+//	}
+//
+//	public Lampada () {
+//	lampLig = true;
+//	}
+//	
+//	public void Lampada () {
+//	lampDesl = false;
+//	}
+//	
+//	
+//}
 	
 }
