@@ -10,14 +10,14 @@ public class Main {
 //		animal = new Gato();
 //				animal.falar();
 
-		Gato gato = new gato ();
-		Cachorro cachorro = new cachorro ();
+		Gato gato = new Gato ();
+		Cachorro cachorro = new Cachorro ();
 		falar(gato);
 		falar(cachorro);
 		
 	}
 	
-	public static void falar(animal a) {
+	public static void falar(Animal a) {
 		a.falar();
 		
 		if (a instanceof Cachorro) { // *istanceof comparação utilizada para instâncias (verifica se esta apontando para o mesmo objeto selecionado com V ou F, 
