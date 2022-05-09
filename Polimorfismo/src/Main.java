@@ -23,7 +23,7 @@ public class Main {
 		if (a instanceof Cachorro) { // *istanceof comparação utilizada para instâncias (verifica se esta apontando para o mesmo objeto selecionado com V ou F, 
 										//se verdadeiro ele puxa e faz senão continua)
 		}
-		Cachorro c = (Cachorro) a; 
+		Cachorro c = (Cachorro) a; // c é onde se localiza a variável
 		c.Morder();
 			
 		
