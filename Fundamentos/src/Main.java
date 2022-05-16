@@ -140,19 +140,51 @@ public class Main {
 //		}
 		
 	//Tabuada com número desejado	
-		Scanner entrada = new Scanner (System.in);
-		System.out.println("Digite o número desejado");
-		int y = entrada.nextInt() ; 
-
-		for(int x=0; x<=10; x++) {
-			System.out.println(y + "x" + x + "=" + x*y);
+//		Scanner entrada = new Scanner (System.in);
+//		System.out.println("Digite o número desejado");
+//		int y = entrada.nextInt() ; 
+//
+//		for(int x=0; x<=10; x++) {
+//			System.out.println(y + "x" + x + "=" + x*y);
+//		}
+//		
+//	}
+// }
+//		array
+		int x1 = 3;
+		int y1 = 5;
+		int z1 = 7;
+		
+		System.out.println(x1);
+		System.out.println(y1);
+		System.out.println(z1);
+		System.out.println();
+		
+		double x[] = {3, 5, 3, 5};
+		
+		for (int aux = 0; aux <x.length; aux++) {
+			System.out.println("Valor do índice" + aux + "=" + x[aux]);
 		}
 		
+		System.out.println();
+		String nome[] = {"Luana", "Esmeralda", "Aurora"};
+		
+		for (int aux1 = 0; aux1 < nome.length; aux1++) {
+			System.out.println(nome[aux1]);
+			if (nome[aux1] == "Esmeralda") {
+				System.out.println("O índice de Esmeralda é = " + aux1);
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
 	}
-}
-		
-		
-		
+}	
 		
 		
 		
