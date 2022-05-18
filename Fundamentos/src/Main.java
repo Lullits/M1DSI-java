@@ -140,8 +140,8 @@ public class Main {
 //		}
 		
 	//Tabuada com número desejado	
-//		Scanner entrada = new Scanner (System.in);
-//		System.out.println("Digite o número desejado");
+		Scanner entrada = new Scanner (System.in);
+		System.out.println("Digite o número desejado");
 //		int y = entrada.nextInt() ; 
 //
 //		for(int x=0; x<=10; x++) {
@@ -150,8 +150,9 @@ public class Main {
 //		
 //	}
 // }
-//		array
-//		int x1 = 3;
+		//array
+//  		int x1 = 3;
+// 
 //		int y1 = 5;
 //		int z1 = 7;
 //		
@@ -176,27 +177,27 @@ public class Main {
 //				System.out.println("O índice de Esmeralda é = " + aux1); // o resultado da matriz
 //			}
 //		}
-//		
-//		
-//		int[] arrayInt = new int [5];
-//		String[] arrayString =  new String [4];
-//		double [] arrayDouble = new double [3];
-//		
-//		arrayInt[3] = 4;
-//		
-//		int[] numero = new int [];
-//		Scanner teclado = new Scanner (System.in);
-//		
-//		for (int aux2 = 0 aux2 < numero.length; aux2++) {
-//			System.out.println("Digite um número qualquer");
-//			numero[aux2] = teclado.nextInt();
-//		}
-//		
-//		for (int aux2 = 0; aux2 <numero.length; aux2++) {
-//			System.out.println("Indice" + aux2 + "=" + numero[aux2]);
-//		}
+
 		
-//
+		int[] arrayInt = new int [5];
+		String[] arrayString =  new String [4];
+		double [] arrayDouble = new double [3];
+		
+		arrayInt[3] = 4;
+		
+		int[] numero = new int [];
+		Scanner teclado = new Scanner (System.in);
+		
+		for (int aux2 = 0 aux2 < numero.length; aux2++) {
+			System.out.println("Digite um número qualquer");
+			numero[aux2] = teclado.nextInt();
+		}
+		
+		for (int aux2 = 0; aux2 <numero.length; aux2++) {
+			System.out.println("Indice" + aux2 + "=" + numero[aux2]);
+		}
+		
+
 //		int []arrayQlq = new int [3];
 //		Object [] arrayObj =  new Object[5];
 //		
