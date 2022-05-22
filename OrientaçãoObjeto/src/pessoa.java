@@ -13,6 +13,6 @@ void receber (int nfig) {
 		
 	}
 
-
+//
 
 }
