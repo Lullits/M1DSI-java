@@ -8,20 +8,20 @@ public class Calculadora {
 		double rsub;
 		double rmul;
 		double rdv;
+//declarando as variaveis de respostas como double e dando os valores diretamente dos n√∫meros
 		
 		
-		
-		rsom = n1 + n2;
-		System.out.println("O resultado da soma È: " + rsom);
+		rsom = n1 + n2; //conta da soma
+		System.out.println("O resultado da soma √©: " + rsom);
 
-		rsub = n1 - n2;
-		System.out.println("O resultado da subtraÁ„o È: " + rsub);
+		rsub = n1 - n2; //conta da subtra√ß√£o
+		System.out.println("O resultado da subtra√ß√£o √©: " + rsub);
 		
-		rmul = n1 * n2;
-		System.out.println("O resultado da multiplicaÁ„o È: " + rmul);
+		rmul = n1 * n2; // conta da multiplica√ß√£o
+		System.out.println("O resultado da multiplica√ß√£o √©: " + rmul);
 		
-		rdv = n1 / n2;
-		System.out.println("O resultado da divis„o È: " + rdv);
+		rdv = n1 / n2; //conta da divis√£o
+		System.out.println("O resultado da divis√£o √©: " + rdv);
 		
 		
 
