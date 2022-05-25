@@ -1,0 +1,1 @@
+Sabonete [cor=Rosa, cheiro=Flores]Sabonete [cor=Roxo, cheiro=Lavanda]Sabonete [cor=Verde, cheiro=Menta]
