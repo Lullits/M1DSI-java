@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Aplicação {
+public class Aplicacao {
 
 	public static void main(String[] args) {
 
@@ -12,7 +12,7 @@ public class Aplicação {
 		System.out.println("Somar dois numeros:");
 		System.out.println("Digite o primeiro número");
 		int x = scanner.nextInt();
-//pega o valor e declara para ser mostrado apenas quando o próximo int for chamado.
+//pega o valor e declara para ser mostrado apenas quando o proximo int for chamado.
 		System.out.println("Digite o segundo número");
 		int y = scanner.nextInt();
 		
