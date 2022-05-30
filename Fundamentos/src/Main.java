@@ -10,10 +10,10 @@ public class Main {
 //		
 //		int a = 0;
 //		double b = 0;
-//		short z = (short)100000; // dá um resultado diferente no casting pois não suporta toda a quantidade de caracteres
+//		short z = (short)100000; // dï¿½ um resultado diferente no casting pois nï¿½o suporta toda a quantidade de caracteres
 //		
-//		a = (int)y;  //casting explicito é necessário declarar que você esta ciente em perder o conteudo (se passar o conteúdo da variavel, ou ter virgula isso tudo será perdido)
-//		b = x;//quando se utiliza uma variável menor chamamos de casting implicit(passar conteúdo de uma variavel para a outra sem perder nennhum dado)
+//		a = (int)y;  //casting explicito ï¿½ necessï¿½rio declarar que vocï¿½ esta ciente em perder o conteudo (se passar o conteï¿½do da variavel, ou ter virgula isso tudo serï¿½ perdido)
+//		b = x;//quando se utiliza uma variï¿½vel menor chamamos de casting implicit(passar conteï¿½do de uma variavel para a outra sem perder nennhum dado)
 //		
 //		System.out.println(a);
 //		System.out.println(b);
@@ -22,24 +22,24 @@ public class Main {
 		
 		
 		
-		//Codigo IF, ELSE, ELSEIF// Quantidades de condições
+		//Codigo IF, ELSE, ELSEIF// Quantidades de condiï¿½ï¿½es
 //	int IdadePessoa = 250;
 //		if (IdadePessoa < 18) {
-//			System.out.println("Você não pode beber" );
+//			System.out.println("Vocï¿½ nï¿½o pode beber" );
 //		}
 //		else if (IdadePessoa < 60) {
 //			System.out.println("Bora tomar uma");
 //		}else {
-//		System.out.println("Tá fazendo hora extra na terra né?");
+//		System.out.println("Tï¿½ fazendo hora extra na terra nï¿½?");
 //		}
-//		System.out.println("Você tem " + IdadePessoa + " anos");
+//		System.out.println("Vocï¿½ tem " + IdadePessoa + " anos");
 //		
 //	}
 //}
 
 		
 		
-//		//SWITCH CASE// conforme o conteudo da variavel o programa é direcionado para um caminho.
+//		//SWITCH CASE// conforme o conteudo da variavel o programa ï¿½ direcionado para um caminho.
 //		int num = 5;
 //		
 //		switch (num) {
@@ -50,7 +50,7 @@ public class Main {
 //			System.out.println("Segunda");	
 //			break;
 //		case 3:
-//			System.out.println("Terça");
+//			System.out.println("Terï¿½a");
 //			break;
 //		case 4:
 //			System.out.println("Quarta");
@@ -62,23 +62,23 @@ public class Main {
 //			System.out.println("Sexta");
 //			break;
 //		case 7:
-//			System.out.println("Sábado");
+//			System.out.println("Sï¿½bado");
 //			break;
 //		default:
-//			System.out.println("Esse numero não representa um dia da semana!");
+//			System.out.println("Esse numero nï¿½o representa um dia da semana!");
 //		}
 	
 		
 //		char caractere = 'a';		
 //		switch (caractere) {
 //		case 'a':
-//			System.out.println(" seu caratere é A");
+//			System.out.println(" seu caratere ï¿½ A");
 //			break;
 //		case 'b':
-//			System.out.println(" seu caratere é B");
+//			System.out.println(" seu caratere ï¿½ B");
 //			break;
 //		case 'c':
-//			System.out.println(" seu caratere é C");
+//			System.out.println(" seu caratere ï¿½ C");
 //			break;
 //		default:
 //			System.out.println(" valor invalido");
@@ -97,19 +97,19 @@ public class Main {
 //			System.out.println("Tacale pau nesse carrinho!");
 //			break;
 //		default:
-//			System.out.println("não existe essa cor no farol");
+//			System.out.println("nï¿½o existe essa cor no farol");
 //		}
 //		
 		
 		
-		//WHILE//  já inicia fazendo um laço de repetição
+		//WHILE//  jï¿½ inicia fazendo um laï¿½o de repetiï¿½ï¿½o
 //	int x = 11;
 //	while (x<10) {
 //	System.out.println(x);
 //	x=x+1;
 //	}
 //	
-		//Do while, sem um laço de repetição fez uma vez e acabou
+		//Do while, sem um laï¿½o de repetiï¿½ï¿½o fez uma vez e acabou
 //	x=0;
 //	do {
 //		System.out.println(x);
@@ -122,7 +122,7 @@ public class Main {
 //		
 		
 		
-	//FOR// para quando você sabe as infos que tem um começo e fim.
+	//FOR// para quando vocï¿½ sabe as infos que tem um comeï¿½o e fim.
 //		for(int x=0; x<10; x++) {
 //			System.out.println(x);
 //		}
@@ -134,14 +134,14 @@ public class Main {
 		
 	//tabuada do 2	
 //		Scanner entrada = new Scanner (System.in);
-//		System.out.println("Digite o número desejado");
+//		System.out.println("Digite o nï¿½mero desejado");
 //		for(int x=0; x<=10; x++) {
 //			System.out.println("2x" + x + "=" + x*2);
 //		}
 		
-	//Tabuada com número desejado	
-		Scanner entrada = new Scanner (System.in);
-		System.out.println("Digite o número desejado");
+	//Tabuada com nï¿½mero desejado	
+//		Scanner entrada = new Scanner (System.in);
+//		System.out.println("Digite o nï¿½mero desejado");
 //		int y = entrada.nextInt() ; 
 //
 //		for(int x=0; x<=10; x++) {
@@ -164,39 +164,39 @@ public class Main {
 //		//estabelece os valores direto
 //		double x[] = {3, 5, 3, 5};
 //		
-//		for (int aux = 0; aux <x.length; aux++) { //aux= vari qualquer  se inicou por 0 por causa do inicio da matriz (0 ao infinito), .lenth=atributo conta quantas casinhas tem mesmo se aumentar não da nenhum problema, pois conta todos disponiveis
-//			System.out.println("Valor do índice" + aux + "=" + x[aux]); //mostra o resultado
+//		for (int aux = 0; aux <x.length; aux++) { //aux= vari qualquer  se inicou por 0 por causa do inicio da matriz (0 ao infinito), .lenth=atributo conta quantas casinhas tem mesmo se aumentar nï¿½o da nenhum problema, pois conta todos disponiveis
+//			System.out.println("Valor do ï¿½ndice" + aux + "=" + x[aux]); //mostra o resultado
 //		}
 //		
 //		System.out.println();
-//		String nome[] = {"Luana", "Esmeralda", "Aurora"}; // matriz de string, só se recebe string mesmo sendo object
+//		String nome[] = {"Luana", "Esmeralda", "Aurora"}; // matriz de string, sï¿½ se recebe string mesmo sendo object
 //		
 //		for (int aux1 = 0; aux1 < nome.length; aux1++) { 
 //			System.out.println(nome[aux1]); // mostra o que foi dado
 //			if (nome[aux1] == "Esmeralda") { // caso queira procurar um dado da matriz
-//				System.out.println("O índice de Esmeralda é = " + aux1); // o resultado da matriz
+//				System.out.println("O ï¿½ndice de Esmeralda ï¿½ = " + aux1); // o resultado da matriz
 //			}
 //		}
 
-		
-		int[] arrayInt = new int [5];
-		String[] arrayString =  new String [4];
-		double [] arrayDouble = new double [3];
-		
-		arrayInt[3] = 4;
-		
-		int[] numero = new int [];
-		Scanner teclado = new Scanner (System.in);
-		
-		for (int aux2 = 0 aux2 < numero.length; aux2++) {
-			System.out.println("Digite um número qualquer");
-			numero[aux2] = teclado.nextInt();
-		}
-		
-		for (int aux2 = 0; aux2 <numero.length; aux2++) {
-			System.out.println("Indice" + aux2 + "=" + numero[aux2]);
-		}
-		
+//		
+//		int[] arrayInt = new int [5];
+//		String[] arrayString =  new String [4];
+//		double [] arrayDouble = new double [3];
+//		
+//		arrayInt[3] = 4;
+//		
+//		int[] numero = new int [];
+//		Scanner teclado = new Scanner (System.in);
+//		
+//		for (int aux2 = 0 aux2 < numero.length; aux2++) {
+//			System.out.println("Digite um nï¿½mero qualquer");
+//			numero[aux2] = teclado.nextInt();
+//		}
+//		
+//		for (int aux2 = 0; aux2 <numero.length; aux2++) {
+//			System.out.println("Indice" + aux2 + "=" + numero[aux2]);
+//		}
+//		
 
 //		int []arrayQlq = new int [3];
 //		Object [] arrayObj =  new Object[5];
