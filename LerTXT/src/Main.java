@@ -6,11 +6,11 @@ import java.io.IOException;
 public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		try(BufferedReader reader = new BufferedReader(new FileReader("entrada.txt"))){ //o buffer é uma memoria temporaria: bufferedreader = lê e o bufferedwriter = escreve
-			String line; //lê a linha
+		try(BufferedReader reader = new BufferedReader(new FileReader("entrada.txt"))){ //o buffer Ã© uma memoria temporaria: bufferedreader = lÃª e o bufferedwriter = escreve
+			String line; //lÃª a linha
 			String string = ""; // concatena o valor
 			
-			while((line = reader.readLine())!=null) { //lê o arquivo e reescreve no console
+			while((line = reader.readLine())!=null) { //lÃª o arquivo e reescreve no console
 				string += line + "\n";
 			}
 			

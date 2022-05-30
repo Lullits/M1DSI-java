@@ -4,28 +4,28 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		List lista = new ArrayList(); //List precisa ser importado pois não é estatico.
+		List lista = new ArrayList(); //List precisa ser importado pois nï¿½o ï¿½ estatico.
 		
 		lista.add("abc"); //add a string, int e boolean a lista;
 		lista.add(12);
 		lista.add(true);
 		
-//		for (int x=0; x< lista.size(); x++) {//size = a lenght mede o tamanho sem precisar se preocupar em aumentar os cálculos.
-//			System.out.println(lista.get(x)); //get pega o que está na lista			
+//		for (int x=0; x< lista.size(); x++) {//size = a lenght mede o tamanho sem precisar se preocupar em aumentar os cï¿½lculos.
+//			System.out.println(lista.get(x)); //get pega o que estï¿½ na lista			
 //		}
 		
 //		System.out.println();
-//		//forma mais simplificada para receber a informação
+//		//forma mais simplificada para receber a informaÃ§Ã£o
 //		for (Object valor : lista) { 
 //			System.out.println(valor);
 //		}
 //		System.out.println();
-//		lista.remove(0); //remove o item da posição e reorganiza novamente 
+//		lista.remove(0); //remove o item da posiÃ§Ãµes e reorganiza novamente 
 //		for (Object valor : lista) { 
 //			System.out.println(valor);
 //		}		
 //		System.out.println();
-//		lista.add(0, "def"); //definiu que na posição 0 seria 'def' e empurrou os outros para as outras casas	
+//		lista.add(0, "def"); //definiu que na posiÃ§Ã£o 0 seria 'def' e empurrou os outros para as outras casas	
 //		for (Object valor : lista) { 
 //			System.out.println(valor);
 //		}
@@ -37,11 +37,11 @@ public class Main {
 //		System.out.println();
 //		
 //		//lista.clear(); // limpa
-//		if (lista.isEmpty()) { //olha se está vazio
-//			System.out.println("Sua lista está vazia");
+//		if (lista.isEmpty()) { //olha se estÃ¡ vazio
+//			System.out.println("Sua lista estÃ¡ vazia");
 //		}
 		
-		Conta conta1 = new Conta("Água", 60.00);
+		Conta conta1 = new Conta("Ã¡gua", 60.00);
 		Conta conta2 = new Conta ("Luz", 120.00);
 		
 		List<Conta> listaDeContas = new ArrayList<Conta>();
@@ -55,4 +55,4 @@ public class Main {
 
 }
 
-//listas, mapas e conjuntos de dados ----> PESQuISAR
+//listas, mapas e conjuntos de dados ----> PESQUISAR
