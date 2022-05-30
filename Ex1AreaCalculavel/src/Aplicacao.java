@@ -1,6 +1,8 @@
 
 public class Aplicacao {
 
+	//não comentado
+	
 	public static void main(String[] args) {
 
 		Quadrado quadrado = new Quadrado();
