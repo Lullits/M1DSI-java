@@ -1,22 +1,22 @@
 import java.util.Scanner;
 
 public class Count {
-
+//Ainda NÃ£o comentado
 	public static void main(String[] args) {
 
 		Scanner	scanner = new Scanner(System.in);
 		
 		Calculo cal = new Calculo();
 
-			System.out.println("Somando área de um quadrado:!");
+			System.out.println("Somando ï¿½rea de um quadrado:!");
 			System.out.println("Digite a altura do quadrado");
 			int x = scanner.nextInt();
 			
 			System.out.println("Digite a Largura do quadrado");
 			int y = scanner.nextInt();
 
-			System.out.println("Somando área de um Triângulo!");
-			System.out.println("Digite a Altura do Triângulo");
+			System.out.println("Somando ï¿½rea de um Triï¿½ngulo!");
+			System.out.println("Digite a Altura do Triï¿½ngulo");
 			int a = scanner.nextInt();
 			
 			System.out.println("Digite a Hipotenusa do triangulo");
@@ -26,23 +26,23 @@ public class Count {
 			int l = scanner.nextInt();		
 			
 			
-			System.out.println("Somando área de um retângulo!");
-			System.out.println("Digite a altura do retângulo");
+			System.out.println("Somando ï¿½rea de um retï¿½ngulo!");
+			System.out.println("Digite a altura do retï¿½ngulo");
 			int t = scanner.nextInt();
 			
-			System.out.println("Digite a Largura do retângulo");
+			System.out.println("Digite a Largura do retï¿½ngulo");
 			int g = scanner.nextInt();
 			
 
 			
 			int squa = cal.somQua (x, y);
-			System.out.println("O resultado da área do quadrado é " + squa + "!!!");
+			System.out.println("O resultado da ï¿½rea do quadrado ï¿½ " + squa + "!!!");
 			
 			int stri = cal.somTri(a, h, l); 
-			System.out.println("O resultado da área do triângulo é " + stri + "!!!");
+			System.out.println("O resultado da ï¿½rea do triï¿½ngulo ï¿½ " + stri + "!!!");
 			
 			double sret = cal.somRet(t, g);
-			System.out.println("O resultado da área do retângulo é " + sret + "!!!");
+			System.out.println("O resultado da ï¿½rea do retï¿½ngulo ï¿½ " + sret + "!!!");
 		}
 		
 		
