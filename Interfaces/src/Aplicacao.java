@@ -1,6 +1,7 @@
 
 public class Aplicacao {
-//cod
+//cod não comentado
+	
 	public static void main(String[] args) {
 
 		Rota rota = new Rota();
