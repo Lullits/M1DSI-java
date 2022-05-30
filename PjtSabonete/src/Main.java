@@ -20,7 +20,7 @@ public class Main {
 		
 		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("Saida.txt"))) {	
 			for(Sabonete sabonete : listaDeSabonete) //chamando
-			escrever.write(sabonete.toString());	//escrever o txt
+			escrever.write(sabonete.toString());	//escreve o txt
 		}
 
 	}

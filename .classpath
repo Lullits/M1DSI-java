@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="CalcularArea/src"/>
+	<classpathentry kind="src" path="ClasseAbstrata/src"/>
+	<classpathentry kind="src" path="ClassesAbstratas/src"/>
+	<classpathentry kind="src" path="ConstrutordeHorario/src"/>
+	<classpathentry kind="src" path="ContaBacaria/src"/>
+	<classpathentry kind="src" path="ElementosEstaticos/src"/>
+	<classpathentry kind="src" path="Enum/src"/>
+	<classpathentry kind="src" path="EscreverTXT/src"/>
+	<classpathentry kind="src" path="Ex1AreaCalculavel/src"/>
+	<classpathentry kind="src" path="Fundamentos/src"/>
+	<classpathentry kind="src" path="Heranca/src"/>
+	<classpathentry kind="src" path="Interfaces/src"/>
+	<classpathentry kind="src" path="Lâmpada/src"/>
+	<classpathentry kind="src" path="LeituraEscritaTXT/src"/>
+	<classpathentry kind="src" path="LerTXT/src"/>
+	<classpathentry kind="src" path="List/src"/>
+	<classpathentry kind="src" path="Modificador/src"/>
+	<classpathentry kind="src" path="OrientaçãoOBJ/src"/>
+	<classpathentry kind="src" path="OrientcaoAoObjeto/src"/>
+	<classpathentry kind="src" path="PjtSabonete/src"/>
+	<classpathentry kind="src" path="PolimorfisBebidas/src"/>
+	<classpathentry kind="src" path="Polimorfismo/src"/>
+	<classpathentry kind="src" path="Sobrecarregar/src"/>
+	<classpathentry kind="src" path="TesteGit/src"/>
+	<classpathentry kind="output" path="CalcularArea/bin"/>
+</classpath>
