@@ -1,0 +1,2 @@
+Pessoa [nome=gh, idade=24, endereco=Endereco [bairro=sagydfg, rua=aszdfxg, n=54], sexo=FEMININO]
+Pessoa [nome=as, idade=9, endereco=Endereco [bairro=asdfghjk, rua=sadgf, n=365], sexo=MASCULINO]
