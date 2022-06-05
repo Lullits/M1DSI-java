@@ -8,7 +8,7 @@ public class Calculadora {
 		double rsub;
 		double rmul;
 		double rdv;
-//declarando as variaveis de respostas como double e dando os valores diretamente dos números
+//declarando as variaveis de respostas como double e dando os valores diretamente dos números.
 		
 		
 		rsom = n1 + n2; //conta da soma
