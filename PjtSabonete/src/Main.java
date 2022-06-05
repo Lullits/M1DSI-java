@@ -18,7 +18,7 @@ public class Main {
 		listaDeSabonete.add(sabonete2);
 		listaDeSabonete.add(sabonete3);
 		
-		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("Saida.txt"))) {	
+		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("Saida.txt"))) { //construindo um buffered e uma txt.file onde o texto vai ser escrito	
 			for(Sabonete sabonete : listaDeSabonete) //chamando
 			escrever.write(sabonete.toString());	//escreve o txt
 		}
