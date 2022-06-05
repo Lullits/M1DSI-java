@@ -5,7 +5,7 @@ public class Circunferencia implements AreaCalculavel {
 	
 	@Override
 	public void CalcularArea() {
-		System.out.println("A área da circunferência é: " + 2* Math.PI * raio);
+		System.out.println("A Ã¡rea da circunferÄ™ncia Ã©: " + 2* Math.PI * raio); //formula mat. + pi x raio
 		
 	}
 
