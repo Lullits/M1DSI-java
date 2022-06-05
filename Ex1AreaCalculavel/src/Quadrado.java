@@ -1,11 +1,11 @@
 
 public class Quadrado implements AreaCalculavel {
 
-	double lado;
+	double lado; //como tem areas iguais n√£o precisa de duas variaveis para lado
 
 	@Override
 	public void CalcularArea() {
-		System.out.println("A ·rea do quadrado È: " + Math.pow(lado, 2));
+		System.out.println("A √°rea do quadrado √©: " + Math.pow(lado, 2));
 		
 	}
 	
