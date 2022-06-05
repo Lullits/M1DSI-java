@@ -12,8 +12,10 @@ public class Main {
 //		double b = 0;
 //		short z = (short)100000; // d� um resultado diferente no casting pois n�o suporta toda a quantidade de caracteres
 //		
-//		a = (int)y;  //casting explicito � necess�rio declarar que voc� esta ciente em perder o conteudo (se passar o conte�do da variavel, ou ter virgula isso tudo ser� perdido)
-//		b = x;//quando se utiliza uma vari�vel menor chamamos de casting implicit(passar conte�do de uma variavel para a outra sem perder nennhum dado)
+//		a = (int)y;  //casting explicito � necess�rio declarar que voc� esta ciente em perder o conteudo 
+		//(se passar o conte�do da variavel, ou ter virgula isso tudo ser� perdido)
+//		b = x;//quando se utiliza uma vari�vel menor chamamos de casting implicit
+		//(passar conte�do de uma variavel para a outra sem perder nennhum dado)
 //		
 //		System.out.println(a);
 //		System.out.println(b);
@@ -150,7 +152,7 @@ public class Main {
 //		
 //	}
 // }
-		//array
+		//array - matriz
 //  		int x1 = 3;
 // 
 //		int y1 = 5;
@@ -164,7 +166,8 @@ public class Main {
 //		//estabelece os valores direto
 //		double x[] = {3, 5, 3, 5};
 //		
-//		for (int aux = 0; aux <x.length; aux++) { //aux= vari qualquer  se inicou por 0 por causa do inicio da matriz (0 ao infinito), .lenth=atributo conta quantas casinhas tem mesmo se aumentar n�o da nenhum problema, pois conta todos disponiveis
+//		for (int aux = 0; aux <x.length; aux++) { //aux= vari qualquer  se inicou por 0 por causa do inicio da matriz (0 ao infinito), 
+		//.lenth=atributo conta quantas casinhas tem mesmo se aumentar n�o da nenhum problema, pois conta todos disponiveis
 //			System.out.println("Valor do �ndice" + aux + "=" + x[aux]); //mostra o resultado
 //		}
 //		
