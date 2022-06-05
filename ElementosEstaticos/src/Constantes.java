@@ -6,7 +6,7 @@ public class Constantes {
 	public static final double MEDIA_DA_PROVA;
 	
 	static {
-		MEDIA_DA_PROVA = 7.0;	
+		MEDIA_DA_PROVA = 7.0;	//para passar a media tem que ser maior ou igual a 7
 	}
 	
 }
