@@ -5,7 +5,7 @@ public class ContaBancaria {
 	private boolean ativo;
 	private double saldo;
 	
-	public ContaBancaria() {
+	public ContaBancaria() { //tornando ela publica pra poder utilizar
 		ativo = true;
 		saldo = 1.0;
 	}
@@ -15,7 +15,7 @@ public class ContaBancaria {
 	this.saldo = saldo;
 	}
 	
-	public void receber(double val) {
+	public void receber(double val) { //conta da soma que irá fazer quando for receber
 		saldo += val;	
 	}
 	
@@ -23,7 +23,7 @@ public class ContaBancaria {
 	return saldo;
 	}
 	
-	public void dar(double val) {
+	public void dar(double val) { //valor a ser subtraído quando for dar o saldo
 		if (saldo >= val)
 		saldo -= val;
 	}
