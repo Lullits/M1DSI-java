@@ -1,6 +1,7 @@
 
-public class Ferrari implements Automovel, ItemCaro {
+public class Ferrari implements Automovel, ItemCaro { //ferrari faz parte de automovel e item caro
 
+	//diferenciando a ferrari escrevendo que ela vai fazer algo.
 	@Override
 	public void virarEsquerda() {
 		System.out.println("Ferrari virou a esquerda");
@@ -19,7 +20,7 @@ public class Ferrari implements Automovel, ItemCaro {
 		
 	}
 
-	@Override
+	@Override //valor da ferrari
 	public double getPreco() {
 		return 1000000;
 	}
