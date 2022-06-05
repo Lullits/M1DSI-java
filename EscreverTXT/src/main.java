@@ -8,8 +8,9 @@ public class main {
 		String s = "texto para ser \n gravado no arquivo"; //   "\n pula linha"
 		
 		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("Saida.txt"))) {	
-			//try= teste (funciona para n„o dar erro ao longo do projeto por ser um "arquivo perigoso") BufferedWriter uma classe padr„o java para mandar escrever.
-			escrever.write(s);	//mÈtodo que escreve		
+			//try= teste (funciona para n√£o dar erro ao longo do projeto por ser um "arquivo perigoso") 
+			// BufferedWriter uma classe padr√£o java para mandar escrever.
+			escrever.write(s);	//m√©todo que escreve		
 			
 		}
 	}
