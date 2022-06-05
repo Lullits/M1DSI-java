@@ -1,7 +1,7 @@
 
 public class Fusca implements Carro {
-
-	@Override
+//para diferenciar os automoveis, falar qual esta fazendo o que.
+	@Override 
 	public void virarEsquerda() {
 		System.out.println("Fusca virou a esquerda");
 		
