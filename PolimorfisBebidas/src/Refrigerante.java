@@ -1,5 +1,5 @@
 
-public class Refrigerante extends Bebida { //extends faz a herança da SprCls
+public class Refrigerante extends Bebida { //extends faz a heranÃ§a da SprCls
 
 	public Refrigerante() {
 
@@ -7,7 +7,7 @@ public class Refrigerante extends Bebida { //extends faz a herança da SprCls
 
 	}
 
-	@Override
+	@Override //sobrescrevendo que qunado for chamado o "preparar" ele irÃ¡ adicionar o gelo no copo
 	public void preparar() {
 		super.preparar();
 		System.out.println("Gelo no copo");
