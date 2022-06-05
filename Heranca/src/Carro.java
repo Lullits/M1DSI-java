@@ -1,12 +1,12 @@
 
 public class Carro extends Veiculo {
 
-	private boolean quatroPortas;
+	private boolean quatroPortas; //(verdadeiro ou falso)
 
 	@Override
 	public void imprimir() {
-		System.out.println("Tem quatro portas? " + quatroPortas);
-		super.imprimir(); //puxa a informação da super classe
+		System.out.println("Tem quatro portas? " + quatroPortas); 
+		super.imprimir(); //puxa a informaÃ§Ã£o da super classe
 	}
 	
 	public boolean isQuatroPortas() {
@@ -14,7 +14,7 @@ public class Carro extends Veiculo {
 	}
 
 	public void setQuatroPortas(boolean quatroPortas) {
-		this.quatroPortas = quatroPortas;
+		this.quatroPortas = quatroPortas; //apontando onde ele vai ser guardado
 	}
 	
 	
