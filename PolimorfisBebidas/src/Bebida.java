@@ -3,6 +3,7 @@ public class Bebida {
 	private String nome;
 	private boolean aquecer;
 	
+	//declara que é publica e analisa o nome da bebida e se ela precisa ser aquecida ou não.
 	public Bebida(String nome, boolean aquecer) {
 		super();
 		this.nome = nome;
@@ -10,12 +11,12 @@ public class Bebida {
 	}
 	
 	
-	public void preparar() {
+	public void preparar() { 
 		System.out.println("Pegar copo");
 	}
 	
 	
-	public String getNome() {
+	public String getNome() { //vai pegar o nome da bebida
 		return nome;
 	}
 
@@ -23,7 +24,7 @@ public class Bebida {
 		this.nome = nome;
 	}
 
-	public boolean isAquecer() {
+	public boolean isAquecer() { //se for quente irá aquecer
 		return aquecer;
 	}
 
