@@ -2,12 +2,12 @@
 public class LeiteQuente extends Bebida {
 
 	public LeiteQuente() {
-		super("Leite Quente", true);
+		super("Leite Quente", true); //dizendo que a bebida é quente
 
 	}
 
-	@Override
-	public void preparar() {
+	@Override // preparação
+	public void preparar() { 
 		super.preparar();
 		System.out.println("Servir leite quente");
 
@@ -16,4 +16,3 @@ public class LeiteQuente extends Bebida {
 	
 }
 
-//classe abstrata 
