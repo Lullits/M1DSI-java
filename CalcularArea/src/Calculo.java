@@ -1,6 +1,6 @@
 
 public class Calculo {
-
+//aqui fazem todas as contas (somas)
 	int somQua(int x, int y) {
 		return x + y;
 	}
