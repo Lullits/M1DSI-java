@@ -1,2 +1,0 @@
-Pessoa [nome=gvshdvj, idade=54]
-Pessoa [nome=fd, idade=4]
