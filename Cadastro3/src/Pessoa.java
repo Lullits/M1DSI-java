@@ -6,27 +6,28 @@ public class Pessoa {
 	private Sexo sexo;
 
 	public Pessoa(String line) { 
-	String[] ArrayLine = line.split(","); // faz split(repartiÃ§Ã£o de variavel) da variavel line a partir da (",") 
+	String[] ArrayLine = line.split(","); // faz split(repartição) da variavel line a partir da ",". 
 
-	String[] ArrayNome = ArrayLine[0].split("=");  // faz split(repartiÃ§Ã£o de variavel em duas partes) da variavel line a partir do ("=") e guarda na variavel ArrayNome
-	this.nome = ArrayNome[1].trim(); // Retira os espacos da variavel ArrayNome e guarda no atributo nome.
+	String[] ArrayNome = ArrayLine[0].split("=");  // faz split(repartição da segunda parte) da variavel line a partir do "=" e guarda na variavel ArrayNome
+	this.nome = ArrayNome[1].trim(); // tira os espacos da variavel ArrayNome e guarda no atributo nome.	
 	
-	String[] ArrayIdade = ArrayLine[1].split("="); // faz split 1Â° parte da variavel line a partir do ("=") e guarda na variavel ArrayIdade
-	this.idade = Integer.parseInt(ArrayIdade[1].trim()); // Retira os espacos da variavel ArrayIdade e guarda no atributo idade.
+	String[] ArrayIdade = ArrayLine[1].split("="); // faz split da primeira parte da variavel line a partir do "=" e guarda na variavel ArrayIdade
+	this.idade = Integer.parseInt(ArrayIdade[1].trim()); // tira os espacos da variavel ArrayIdade e guarda no atributo idade.
 	
 	String[] ArraySexo = ArrayLine[2].split("=");
-	this.sexo = Sexo.valueOf(ArraySexo[1].trim()); // Retira os espacos da variavel ArraySexo e guarda no atributo sexo.
+	this.sexo = Sexo.valueOf(ArraySexo[1].trim()); // tira os espacos da variavel ArraySexo e guarda no atributo sexo.
 	
-	Endereco endereco = new Endereco(ArrayLine); // InstÃ¢ncia um ArrayLine na variavel endereco
+	Endereco endereco = new Endereco(ArrayLine); // Instância um ArrayLine na variavel endereco
 	
-	this.endereco = endereco; //A variavel endereco Ã© igual ao atributo endereco
+	this.endereco = endereco; //A variavel endereco igual ao atributo endereco
 	}
 
+	//construtor
 	public Pessoa() {
 		
 	}
 	
-	
+	//get e setter
 	public String getNome() {
 		return nome;
 	}
@@ -59,10 +60,10 @@ public class Pessoa {
 		this.sexo = sexo;
 	}
 
-				
+	//to string
 	@Override
 	public String toString() {
-	 return "Pessoa nome = " + nome + ", Idade = " + idade + " ,sexo = " + sexo + endereco +"\n"; //Override do to String
+	 return "Pessoa nome = " + nome + ", Idade = " + idade + " ,sexo = " + sexo + endereco +"\n"; //sobrescrita
 	}	
 	
 }

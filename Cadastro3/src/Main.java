@@ -16,14 +16,14 @@ public class Main {
 		List<Pessoa> listalida = new ArrayList<Pessoa>();// cria lista para leitura
 
 		for (int x = 1; x <= 1; x++) {
-			Pessoa pessoa = new Pessoa(); // puxando informaÃ§Ãµes de pessoa
-			pessoa.setEndereco(new Endereco()); // puxando informaÃ§Ãµes de endereÃ§o
+			Pessoa pessoa = new Pessoa(); // puxando informações de pessoa
+			pessoa.setEndereco(new Endereco()); // puxando informações de endereço
 
 			System.out.println("Digite o nome da " + x + "a pessoa");
-			pessoa.setNome(entrada.next());
+			pessoa.setNome(entrada.next()); // guarda o nome
 
 			System.out.println("Digite a idade da " + x + "a pessoa");
-			pessoa.setIdade(entrada.nextInt());
+			pessoa.setIdade(entrada.nextInt()); // guarda a idade
 
 			System.out.println("Selecione o GÃªnero: 1-Feminino 2- Masculino");
 			int op = 0;
@@ -35,21 +35,21 @@ public class Main {
 					pessoa.setSexo(Sexo.FEMININO);
 
 				else {
-					System.out.println("Ah nÃ£o, nÃ£o foi isso que eu te pedi");
-					System.out.println("Selecione 1- para Feminino ou 2-para Masculino");
+					System.out.println("Ah nâo, não foi isso que eu te pedi");// se for qualquer numero sem ser 1 ou 2 ele vai repetir a questão.
+					System.out.println("Selecione 1- para Feminino ou 2-para Masculino"); 
 				}
 			}
 
-			System.out.println("Dados de endereÃ§o da " + x + " pessoa");
+			System.out.println("Dados de endereço da " + x + " pessoa"); 
 			System.out.println("Digite o nome do bairro: ");
-			pessoa.getEndereco().setBairro(entrada.next());
+			pessoa.getEndereco().setBairro(entrada.next()); // Guardando o bairro
 			
 
 			System.out.println("Digite o nome da rua: ");
-			pessoa.getEndereco().setRua(entrada.next());
+			pessoa.getEndereco().setRua(entrada.next()); // Guarda a rua
 
 			System.out.println("Digite o numero da sua casa: ");
-			pessoa.getEndereco().setN(entrada.nextInt());
+			pessoa.getEndereco().setN(entrada.nextInt()); // guarda o numero da sala
 
 			System.out.println("- - - - - - - - - - - - - - - - - - - - -");
 			System.out.println();
